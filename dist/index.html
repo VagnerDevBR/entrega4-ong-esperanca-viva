@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang=pt-BR>
+<head>
+<meta charset=UTF-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=description content="ONG Esperança Viva — aplicação dinâmica e acessível para cadastro e divulgação de projetos sociais.">
+<title>ONG Esperança Viva | Inclusão e Acessibilidade</title>
+<link rel="stylesheet" href="style.min.css">
+<meta name=theme-color content=#0055a5>
+<meta name=author content="ONG Esperança Viva">
+</head>
+<body>
+<a href=#main-content class=skip-link>Ir para o conteúdo principal</a>
+<div id=accessibility-toolbar role=region aria-label="Ferramentas de acessibilidade">
+<button id=toggle-dark aria-pressed=false>🌙 Modo Escuro</button>
+<button id=toggle-contrast aria-pressed=false>🌓 Alto Contraste</button>
+</div>
+<div class=menu-toggle aria-label="Abrir menu de navegação" role=button tabindex=0>
+<span></span><span></span><span></span>
+</div>
+<header>
+<h1 tabindex=0>ONG Esperança Viva</h1>
+<nav aria-label="Menu principal">
+<ul>
+<li><a href=#/ tabindex=0>Início</a></li>
+<li><a href=#projetos tabindex=0>Projetos</a></li>
+<li><a href=#cadastro tabindex=0>Cadastro</a></li>
+</ul>
+</nav>
+</header>
+<main id=main-content role=main tabindex=-1>
+<div id=content aria-live=polite></div>
+</main>
+<footer role=contentinfo>
+<p>&copy; 2025 ONG Esperança Viva — Todos os direitos reservados.</p>
+</footer>
+<script src="app.min.js" defer></script>
+<script src="accessibility.min.js" defer></script>
+</body>
+</html>
