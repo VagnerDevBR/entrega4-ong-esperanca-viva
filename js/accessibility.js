@@ -76,3 +76,4 @@
     });
   }
 })();
+// Ajuste de acessibilidade 
